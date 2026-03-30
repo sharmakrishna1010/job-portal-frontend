@@ -1,6 +1,7 @@
 import Header from "../components/header/Header"
 import Companies from "../components/hero/Companies"
 import DreamJob from "../components/hero/DreamJob"
+import JobCategory from "../components/jobCategory/JobCategory"
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Header />
       <DreamJob />
       <Companies />
+      <JobCategory/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ function Companies() {
     return (
         <div className="mt-20 text-white">
             <div className="text-4xl font-semibold text-center mb-10">
-                Trusted By <span className="text-picton-blue-500">1000+</span> Companies
+                Trusted By <span className="text-picton-blue-400">1000+</span> Companies
             </div>
             
             <SafeMarquee gradient={false} speed={50} pauseOnHover={true}>

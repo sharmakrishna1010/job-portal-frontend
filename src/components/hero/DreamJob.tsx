@@ -6,7 +6,7 @@ function DreamJob() {
         <div className="text-white flex items-center px-20">
             <div className="flex flex-col w-[45%] gap-5">
                 <div className="font-bold text-6xl leading-tight">Find your <span className="text-picton-blue-400">dream job</span> <br /> with us</div>
-                <div className="text-lg">Good life begins with a good company.Start exploring thousands of jobs in one place.</div>
+                <div className="text-lg">Good life begins with a good company. <br /> Start exploring thousands of jobs in one place.</div>
                 <div className="flex gap-3 mt-4 items-center">
                     <TextInput
                         label="Job Title"
@@ -31,7 +31,7 @@ function DreamJob() {
 
             <div className="w-[55%] flex items-center justify-center">
                 <div className="w-150 relative">
-                    <img src="/boyWithLaptop.png" alt="dreamJobImage" />
+                    <img src="/Boy.png" alt="dreamJobImage" />
                     <div className="backdrop-blur-md -right-1 w-fit border-picton-blue-500 rounded-lg border p-2  absolute top-[50%]">
                         <div className="text-center text-sm mb-1">10K+ got job</div>
                         <Avatar.Group>
