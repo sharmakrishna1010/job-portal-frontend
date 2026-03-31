@@ -1,8 +1,8 @@
 import Marquee from "react-fast-marquee";
-import CategoryCard from "./CategoryCard";
 import { Carousel, CarouselSlide } from "@mantine/carousel";
 import { jobCategory } from "../../Data/Data";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import CategoryCard from "./CategoryCard";
 
 const SafeMarquee = (Marquee as any).default ? (Marquee as any).default : Marquee;
 
