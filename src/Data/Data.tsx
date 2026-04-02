@@ -61,24 +61,30 @@ export const jobCategory = [
 export const testimonials = [
     {
         "name": "Bhavya Singh",
-        "testimonial" : "This job portal made job search easy and quick. Recommend to all job seekers!",
-        "rating" : 5 
+        "testimonial": "This job portal made job search easy and quick. Recommend to all job seekers!",
+        "rating": 5
     },
     {
         "name": "Abhilasha Sharma",
-        "testimonial" : "Found my dream job within a week! The application process was smooth.",
-        "rating" : 5 
+        "testimonial": "Found my dream job within a week! The application process was smooth.",
+        "rating": 5
     },
     {
         "name": "Jyoti Gupta",
-        "testimonial" : "I secured a job offer within days of applying. Exceptional user experience and support.",
-        "rating" : 4
+        "testimonial": "I secured a job offer within days of applying. Exceptional user experience and support.",
+        "rating": 4
     },
     {
         "name": "Bhumi Shah",
-        "testimonial" : "Highly efficient job portal with excellent resources. Helped me land a great position.",
-        "rating" : 4
+        "testimonial": "Highly efficient job portal with excellent resources. Helped me land a great position.",
+        "rating": 4
     },
 ]
+
+export const footerLinks = [
+    { title: "Product", link: ["Find Job", "Find Company", "Find Employee"] },
+    { title: "Company", link: ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"] },
+    { title: "Support", link: ["Help & Support", "Feedback", "FAQs"] }
+];
 
 // export default companies

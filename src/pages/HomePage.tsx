@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import Companies from "../components/landingPage/Companies"
 import DreamJob from "../components/landingPage/DreamJob"
@@ -16,6 +17,7 @@ function HomePage() {
       <Working />
       <Testimonials />
       <Subscribe />
+      <Footer />
     </div>
   )
 }
