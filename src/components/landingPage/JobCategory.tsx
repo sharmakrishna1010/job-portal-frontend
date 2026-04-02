@@ -38,7 +38,6 @@ function JobCategory() {
 
                 </Carousel>
             </div>
-            {/* <CategoryCard /> */}
         </div>
     );
 }
