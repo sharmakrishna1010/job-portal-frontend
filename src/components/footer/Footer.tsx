@@ -1,7 +1,6 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandTelegram, IconBrandYoutube } from "@tabler/icons-react"
 import { Link } from "react-router-dom"
 import { footerLinks } from "../../Data/Data"
-
 function Footer() {
     return (
         <div className="pt-20 pb-5 text-white flex gap-5 justify-around bg-black-950 font-['poppins']">
@@ -34,9 +33,9 @@ function Footer() {
                 footerLinks.map((item, index) => <div key={index}>
                     <div className="font-semibold text-lg mb-4 text-picton-blue-400">{item.title}</div>
 
-                    {item.link.map((link, index) => <div key={index} 
+                    {item.links.map((links, index) => <div key={index} 
                     className="text-sm cursor-pointer hover:text-picton-blue-400 mb-1 hover:translate-x-2 transition ease-in-out duration-300">
-                        {link}
+                        {links}
                     </div>)}
 
                 </div>)
