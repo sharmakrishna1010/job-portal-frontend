@@ -42,13 +42,15 @@ const theme = createTheme({
 
   },
 
+  fontFamily: 'poppins, sans-serif',
+
 })
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <MantineProvider theme={theme}>
+      <MantineProvider defaultColorScheme='dark' theme={theme}>
         <App />
       </MantineProvider>
     </BrowserRouter>

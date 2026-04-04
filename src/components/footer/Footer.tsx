@@ -4,7 +4,7 @@ import { footerLinks } from "../../Data/Data"
 
 function Footer() {
     return (
-        <div className="mt-20 pb-5 text-white flex gap-5 justify-around">
+        <div className="pt-20 pb-5 text-white flex gap-5 justify-around bg-black-950 font-['poppins']">
 
             <div className="w-1/4 flex flex-col gap-3 px-5">
                 <div>

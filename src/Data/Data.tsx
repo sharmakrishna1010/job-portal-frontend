@@ -86,5 +86,3 @@ export const footerLinks = [
     { title: "Company", link: ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"] },
     { title: "Support", link: ["Help & Support", "Feedback", "FAQs"] }
 ];
-
-// export default companies

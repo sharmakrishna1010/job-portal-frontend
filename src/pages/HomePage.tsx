@@ -10,14 +10,12 @@ import Working from "../components/landingPage/Working"
 function HomePage() {
   return (
     <div className="min-h-screen bg-black-950 font-['poppins']">
-      <Header />
       <DreamJob />
       <Companies />
       <JobCategory />
       <Working />
       <Testimonials />
       <Subscribe />
-      <Footer />
     </div>
   )
 }

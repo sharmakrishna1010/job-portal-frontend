@@ -7,7 +7,7 @@ import NavLinks from "./NavLinks"
 
 function Header() {
     return (
-        <div className="w-full bg-black-950 h-28 text-white flex justify-between px-6 items-center overflow-hidden">
+        <div className="w-full bg-black-950 h-28 font-['poppins'] text-white flex justify-between px-6 items-center overflow-hidden">
             <div className="flex gap-3">
                 <Link to={"/"}>
                     <img src="src\assets\images\job-xa-logo.png" alt="Job Xa Logo" className="w-40" />
