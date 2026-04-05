@@ -1,16 +1,16 @@
 import { Divider } from "@mantine/core"
-import SearchBar from "../components/findJobs/SearchBar"
-import Jobs from "../components/findJobs/Jobs"
+import SearchBar from "../components/findTalent/SearchBar"
+import Talents from "../components/findTalent/Talents"
 
-function FindJobs() {
+function FindTalentPage() {
     return (
         <div className="min-h-screen bg-black-950 font-['poppins']">
             <Divider size="xs" orientation="horizontal" mx="md" />
             <SearchBar />
             <Divider size="xs" orientation="horizontal" mx="md" />
-            <Jobs />
+            <Talents />
         </div>
     )
 }
 
-export default FindJobs
+export default FindTalentPage
