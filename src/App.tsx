@@ -4,6 +4,7 @@ import FindJobsPage from "./pages/FindJobsPage"
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
 import FindTalentPage from "./pages/FindTalentPage"
+import TalentProfilePage from "./pages/TalentProfilePage"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/find-jobs" element={<FindJobsPage />} />
         <Route path="/find-talent" element={<FindTalentPage />} />
+        <Route path="/talent-profile" element={< TalentProfilePage/>} />
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Footer />
