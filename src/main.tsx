@@ -4,12 +4,17 @@ import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
+import '@mantine/tiptap/styles.css';
 import './index.css'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom';
 
 
 const theme = createTheme({
+
+  primaryColor: 'pictonBlue',
+  primaryShade: 4,
+
   colors: {
 
     'pictonBlue': [
