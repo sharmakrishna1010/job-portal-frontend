@@ -25,3 +25,17 @@
   --color-picton-blue-900: #114269;
   --color-picton-blue-950: #0b2a46;
 }
+
+@layer base {
+  ul,
+  ol {
+    list-style: revert;
+    font-size: medium;
+  }
+  p {
+    font-size: medium;
+  }
+  li{
+    margin-left: 1em;
+  }
+}
