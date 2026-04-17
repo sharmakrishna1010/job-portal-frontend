@@ -7,7 +7,8 @@ function NavLinks() {
         { name: "Post Job", url: "post-job" },
         { name: "About Us", url: "about-us" }]
 
-    const location = useLocation();    
+
+    const location = useLocation();
 
     return (
         <div className="flex gap-x-15 h-full items-center">
